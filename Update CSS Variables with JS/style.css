@@ -1,0 +1,39 @@
+:root{
+    --color-picker: rgb(134, 38, 38);
+    --space: 10px;
+    --blur: 0px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-size: 8rem;
+}
+
+label{
+    font-size: 2rem;
+}
+
+img{
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin: 3rem auto;
+    background-color: var(--color-picker);
+    padding: var(--space);
+    filter: blur(var(--blur));
+}
+
+.title-span{
+    color: var(--color-picker);
+}
