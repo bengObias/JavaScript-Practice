@@ -44,15 +44,15 @@ p{ font-size: 4em; }
 
 p:nth-child(2){ font-size: 10em; }
 
-.first{ background-image: url(images/bgg1.jpeg); }
+.first{ background-image: url(images/bg1.jpeg); }
 
-.second{ background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url(images/bgg2.jpeg); }
+.second{ background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url(images/bg2.jpeg); }
 
-.third{ background-image: url(images/bgg3.jpeg); }
+.third{ background-image: url(images/bg3.jpeg); }
 
-.fourth{ background-image: url(images/bgg4.jpeg); }
+.fourth{ background-image: url(images/bg4.jpeg); }
 
-.fifth{ background-image: url(images/bgg5.jpeg); }
+.fifth{ background-image: url(images/bg5.jpeg); }
 
 .open{
     flex: 3;
